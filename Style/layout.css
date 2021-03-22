@@ -1,0 +1,139 @@
+body{
+    width: 480px;
+}
+header{
+
+    width: 480px;
+    height: 75px;
+    line-height: 37px;
+}
+
+section :nth-of-type(1){
+height: 150px;
+width: 480px;
+line-height: 150px;;
+}
+section :nth-of-type(2){    
+    height: 125px;
+    width: 480px;
+    line-height: 125px;;
+}
+section :nth-of-type(3){
+height: 125px;
+width: 480px;
+line-height: 125px;;
+}
+section :nth-of-type(4)
+{
+height: 250px;
+width: 240px;
+float: right;
+line-height: 250px;;
+
+
+}
+section :nth-of-type(5)
+{
+height: 250px;
+width: 240px;
+line-height: 250px;;
+
+}
+section :nth-of-type(6)
+{
+height: 250px;
+width: 240px;
+
+float: right;
+line-height: 250px;;
+
+}
+section :nth-of-type(7)
+{
+height: 250px;
+width: 240px;
+line-height: 250px;;
+
+}
+footer{
+    height: 80px;
+    width: 480;
+    line-height: 80px;;
+
+}
+@media only screen and (min-width:768px){
+    body{
+        width: 960px;
+    }
+
+header{
+    width: 959px;
+    height: 100px;
+    line-height: 100px;
+    }
+
+section :nth-of-type(1){
+    height: 600px;
+    width: 200px;
+    line-height: 600px;
+    float: left;
+}
+
+
+section :nth-of-type(2){
+  height: 200px;
+  width: 377px;
+  line-height: 200px;
+  float: left;
+}
+section :nth-of-type(3){
+    height: 200px;
+    width: 377px;
+    line-height: 200px;
+    float: right;
+}
+
+section :nth-of-type(4)
+{
+height: 250px;
+width: 187px;
+float: left;
+line-height: 250px;;
+
+}
+section :nth-of-type(5)
+{
+height: 250px;
+width: 187px;
+line-height: 250px;;
+float: left;
+
+
+}
+section :nth-of-type(6)
+{
+height: 250px;
+width: 187px;
+float: left;
+
+line-height: 250px;;
+
+}
+section :nth-of-type(7)
+{
+height: 250px;
+width: 188px;
+float: left;
+
+line-height: 250px;;
+
+}
+
+footer{
+    height: 147px;
+    width: 756px;
+    line-height: 150px;
+    float: left;
+
+} 
+}
