@@ -1,139 +1,208 @@
-body{
-    width: 480px;
+#a {grid-area: a;}
+#b {grid-area: b;}
+#c {grid-area: c;}
+#d {grid-area: d;}
+#e {grid-area: e;}
+#f {grid-area: f;}
+#g {grid-area: g;}
+#h {grid-area: h;}
+#i {grid-area: i;}
+section {
+    display: grid;
+    grid-template-areas: 
+    'a a a a a'
+    'b c c d d'
+    'b e f g h'
+    'b i i i i';
+  
 }
-header{
 
-    width: 480px;
-    height: 75px;
-    line-height: 37px;
-}
-
-section :nth-of-type(1){
-height: 150px;
-width: 480px;
-line-height: 150px;;
-}
-section :nth-of-type(2){    
-    height: 125px;
-    width: 480px;
-    line-height: 125px;;
-}
-section :nth-of-type(3){
-height: 125px;
-width: 480px;
-line-height: 125px;;
-}
-section :nth-of-type(4)
-{
-height: 250px;
-width: 240px;
-float: right;
-line-height: 250px;;
-
-
-}
-section :nth-of-type(5)
-{
-height: 250px;
-width: 240px;
-line-height: 250px;;
-
-}
-section :nth-of-type(6)
-{
-height: 250px;
-width: 240px;
-
-float: right;
-line-height: 250px;;
-
-}
-section :nth-of-type(7)
-{
-height: 250px;
-width: 240px;
-line-height: 250px;;
-
-}
-footer{
-    height: 80px;
-    width: 480;
-    line-height: 80px;;
-
-}
-@media only screen and (min-width:768px){
-    body{
-        width: 960px;
-    }
-
-header{
-    width: 959px;
+#a{
     height: 100px;
-    line-height: 100px;
-    }
+    width: auto;
 
-section :nth-of-type(1){
+}
+#b{
     height: 600px;
-    width: 200px;
-    line-height: 600px;
-    float: left;
 }
-
-
-section :nth-of-type(2){
-  height: 200px;
-  width: 377px;
-  line-height: 200px;
-  float: left;
-}
-section :nth-of-type(3){
+#c{
     height: 200px;
-    width: 377px;
-    line-height: 200px;
-    float: right;
-}
+    width: auto;
 
-section :nth-of-type(4)
+}
+#d{
+    height: 200px;
+    width: auto;
+
+}
+#e{
+    height: 250px;
+    width: auto;
+
+}
+#f{
+    height: 250px;
+    width: auto;
+
+}
+#g{
+    height: 250px;
+    width: auto;
+
+}
+#h{
+    height: 250px;
+    width: auto;
+
+}
+#i{
+    height: 150px;
+    width: auto;
+
+}
+@media screen and (max-width:321px)
 {
-height: 250px;
-width: 187px;
-float: left;
-line-height: 250px;;
+    #a {grid-area: a; }
+    #b {grid-area: b;}
+    #c {grid-area: c;}
+    #d {grid-area: d;}
+    #e {grid-area: e;}
+    #f {grid-area: f;}
+    #g {grid-area: g;}
+    #h {grid-area: h;}
+    #i {grid-area: i;}
+section {
+    display: grid;
+    grid-template-areas: 
+    'a a'
+    'b b'
+    'c c'
+    'd d'
+    'e f'
+    'g h'
+    'i i';
+  
+}
+body{
+    width:321;
+}
+
+#a{
+    height: 75px;
+    width: auto;
 
 }
-section :nth-of-type(5)
+#b{
+    height: 150px;
+}
+#c{
+    height: 125px;
+    width: auto;
+
+}
+#d{
+    height: 125px;
+    width: auto;
+
+}
+#e{
+    height: 250px;
+    width: auto;
+
+}
+#f{
+    height: 250px;
+    width: auto;
+
+}
+#g{
+    height: 250px;
+    width: auto;
+
+}
+#h{
+    height: 250px;
+    width: auto;
+
+}
+#i{
+    height: 80px;
+    width: auto;
+
+}
+
+}
+
+
+@media screen and (max-width:768px)
 {
-height: 250px;
-width: 187px;
-line-height: 250px;;
-float: left;
+    #a {grid-area: a; }
+    #b {grid-area: b;}
+    #c {grid-area: c;}
+    #d {grid-area: d;}
+    #e {grid-area: e;}
+    #f {grid-area: f;}
+    #g {grid-area: g;}
+    #h {grid-area: h;}
+    #i {grid-area: i;}
+section {
+    display: grid;
+    grid-template-areas: 
+    'a a'
+    'b b'
+    'c c'
+    'd d'
+    'e f'
+    'g h'
+    'i i';
+  
+}
+body{
+    width:321;
+}
 
+#a{
+    height: 75px;
+    width: auto;
 
 }
-section :nth-of-type(6)
-{
-height: 250px;
-width: 187px;
-float: left;
-
-line-height: 250px;;
+#b{
+    height: 200px;
+}
+#c{
+    height: 100px;
+    width: auto;
 
 }
-section :nth-of-type(7)
-{
-height: 250px;
-width: 188px;
-float: left;
+#d{
+    height: 100px;
+    width: auto;
 
-line-height: 250px;;
+}
+#e{
+    height: 250px;
+    width: auto;
+
+}
+#f{
+    height: 250px;
+    width: auto;
+
+}
+#g{
+    height: 250px;
+    width: auto;
+
+}
+#h{
+    height: 250px;
+    width: auto;
+
+}
+#i{
+    height: 100px;
+    width: auto;
 
 }
 
-footer{
-    height: 147px;
-    width: 756px;
-    line-height: 150px;
-    float: left;
-
-} 
 }
